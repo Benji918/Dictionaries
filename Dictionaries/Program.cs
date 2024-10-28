@@ -74,9 +74,10 @@ namespace Dictionary
                 ["KM"] = "Dfdf",
             };
 
-            if(codes.TryGetValue("KM", out string states)){
+            if(codes.TryGetValue("Ka", out string states)){
                 Console.WriteLine(states);
             }
+
             
             foreach(KeyValuePair<string, string> kvp in codes)
             {
